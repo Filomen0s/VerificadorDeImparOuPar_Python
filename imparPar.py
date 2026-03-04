@@ -23,7 +23,7 @@ if(num1.isdigit() and num2.isdigit()):
     calculo()
 
 else:
-    while (isinstance(num1, (str)) or isinstance(num2, (str))):
+    while (True):
         print("\nInsira um número\n")
 
         num1 = input('Insira o primeiro número: ')
